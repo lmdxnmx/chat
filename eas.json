@@ -1,0 +1,18 @@
+{
+    "build": {
+      "review": {
+        "android": {
+          "buildType": "apk"
+        }
+      },
+      "review2": {
+        "android": {
+          "gradleCommand": ":app:assembleRelease"
+        }
+      },
+      "review3": {
+        "developmentClient": true
+      },
+      "production": {}
+    }
+  }
